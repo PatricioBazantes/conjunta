@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Sección de creación */
+.crear-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.crear-element {
+  margin-bottom: 20px;
+}
+
+.crear-element h3 {
+  margin-top: 0;
+  color: #555;
+}
+
+.crear-element form {
+  display: flex;
+  flex-direction: column;
+}
+
+.crear-element label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.crear-element input, .crear-element textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #1190df;
+  border-radius: 4px;
+}
+
+.crear-element button {
+  padding: 10px;
+  background-color: #0575ca; /* Color de fondo del botón */
+  color: #333; /* Color del texto del botón */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.crear-element button:hover {
+  background-color: #85c1ff; /* Color pastel más claro al pasar el cursor */
+}
+
+/* Sección de listado */
+.list-section {
+  padding: 20px;
+  background-color: #0dd4c7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-section h2 {
+  margin-top: 0;
+  color: #555;
+}
+
+/* Tablas */
+.table-container {
+  margin-bottom: 20px;
+}
+
+.table-header {
+  font-weight: bold;
+  background-color: #14c79d; /* Color pastel para el encabezado de la tabla */
+  color: #333;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 10px;
+  border: 1px solid #10b4ca;
+}
+
+.table th {
+  background-color: #0dbbb5; /* Color pastel claro para el encabezado de la tabla */
+}
+
+.table tr:nth-child(even) {
+  background-color: #0ef3eb; /* Color de fondo alternado en filas */
+}
+
+.table td {
+  text-align: left;
+}
